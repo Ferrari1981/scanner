@@ -159,7 +159,7 @@ public class CREATE_DATABASEScanner extends SQLiteOpenHelper{ ///SQLiteOpenHelpe
                                 " current_table NUMERIC UNIQUE )");
                         Log.d(this.getClass().getName(), " сработала ...  создание таблицы   НазваниеТаблицыДляТригера   "+НазваниеТаблицыДляТригера );
                     }
-                    // TODO: 30.11.2022 Тригеры для Сканироваение
+                    // TODO: 30.11.2022 Тригеры для Сканироваение//
                     //TODO INSERT
                     ССылкаНаСозданнуюБазу.execSQL("  drop TRIGGER  if exists ScannerTableINSERT" + НазваниеТаблицыДляТригера + "");
                     //TODO INSERT
