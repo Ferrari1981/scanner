@@ -571,10 +571,10 @@ public class ServiceControllerКлиент extends IntentService {
             Log.d(this.getClass().getName(), "  FirebaseMessagingService"  );
             // TODO: 07.12.2021
             firebaseMessagingService.onNewToken("Сообщения от Firebase Cloud Google ");
-            Log.d(this.getClass().getName(), "  КЛЮЧ ДЛЯ  КОНЕЦ  OneSignal........  56bbe169-ea09-43de-a28c-9623058e43a2 " );
+            Log.d(this.getClass().getName(), "  КЛЮЧ ДЛЯ  КОНЕЦ  OneSignal........  b6b9d3fa-3a50-413d-b857-25e9815fb2ba " );
             // TODO: 15.12.2021 настройки onesigmnal
             Map<String, String> params = new HashMap<String, String>();
-            OneSignal.sendTag("Authorization", "Basic 56bbe169-ea09-43de-a28c-9623058e43a2");
+            OneSignal.sendTag("Authorization", "Basic b6b9d3fa-3a50-413d-b857-25e9815fb2ba");
             OneSignal.sendTag("Content-type", "application/json");
             OneSignal.sendTag("grp_msg", "scanner");
             OneSignal.sendTag("android_background_data", "true");
