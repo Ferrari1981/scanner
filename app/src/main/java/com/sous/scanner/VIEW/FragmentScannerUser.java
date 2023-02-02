@@ -81,7 +81,7 @@ public class FragmentScannerUser extends Fragment {
             Bundle bundle=     getArguments();
             binderСканнер = (ServiceControllerКлиент.LocalBinderСканнер) bundle.getBinder("binderСканнер");
             bluetoothManager = (BluetoothManager) getActivity().getSystemService(Context.BLUETOOTH_SERVICE);
-            КлючДляFibaseOneSingnal="56bbe169-ea09-43de-a28c-9623058e43a2";
+            КлючДляFibaseOneSingnal="b6b9d3fa-3a50-413d-b857-25e9815fb2ba";
             mediatorLiveDataGATT=new MediatorLiveData();
             // TODO: 06.12.2022
             МетодИнициализацииRecycleViewДляЗадач();

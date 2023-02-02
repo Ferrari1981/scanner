@@ -29,6 +29,7 @@ android {
     compileSdk 33
 
     defaultConfig {
+        manifestPlaceholders onesignal_app_id: 'b6b9d3fa-3a50-413d-b857-25e9815fb2ba', onesignal_google_project_number: 'REMOTE'
         applicationId "com.sous.scanner"
         minSdk 29
         targetSdk 33
